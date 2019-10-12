@@ -66,7 +66,7 @@ const thesis = document.getElementById('thesis')
 let thesisExists = true
 
 function anxietyAttack() {
-    if (thesis && thesisExists == true) {
+    if (thesisExists == true) {
         setTimeout(function(){
             hero.health--
             displayStats()
